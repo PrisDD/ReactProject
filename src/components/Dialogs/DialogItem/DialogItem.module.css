@@ -1,0 +1,9 @@
+
+.dialog a{
+    color: rgb(248, 244, 246);
+    text-decoration: none;
+}
+
+.dialogActive a{
+    color: yellow;
+}
