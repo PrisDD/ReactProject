@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import state from './Redux/state.jsx';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* делвем общюю базу state */}
+    <App state={state} />,
+
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -7,7 +7,7 @@ const DialogItem = (props) => {
     return (
         <div className={s.dialog}>
             {/* to='/dialogs/1'  используя dialogs мы остаемся на Rout диалогов и меняем только url */}
-            <NavLink to={'/dialogs/' + props.id} activeClassName={s.dialogActive}> {props.name} </NavLink>
+            <NavLink to={'/dialogs/' + props.id} activeClassName={s.dialogActive}> {props.avaImg} {props.name} </NavLink>
         </div>
     );
 }

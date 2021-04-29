@@ -10,7 +10,7 @@ import Settings from './components/Settings/Settings';
 import Nav from './components/Nav/Nav';
 import ProfilePage from './components/ProfilePage/ProfilePage';
 
-const App = () => {
+const App = (props) => {
     return (
         <BrowserRouter>
             <div className='app-wrapper'>
@@ -24,8 +24,10 @@ const App = () => {
                     {/* получится добавить props
                     анонимную ф-ю можно вынесты выше App  обьявив через let
                     */}
-                    <Route path='/dialogs' render={() => <Dialogs />} />
-                    <Route path='/profile' render={() => <ProfilePage />} />
+                    <Route path='/dialogs' 
+                        render={() => <Dialogs state={props.state.dialogsPage} />} />
+                    <Route path='/profile' 
+                        render={() => <ProfilePage state={props.state.profilePage}/>} />
                     <Route path='/news' render={() => <News />} />
                     <Route path='/music' render={() => <Music />} />
                     <Route path='/settings' render={() => <Settings />} />
