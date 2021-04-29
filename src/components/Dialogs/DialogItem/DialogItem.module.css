@@ -7,3 +7,9 @@
 .dialogActive a{
     color: yellow;
 }
+
+.dialog img{
+    width: 40px;
+    padding: 10px;
+
+}

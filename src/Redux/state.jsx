@@ -1,4 +1,3 @@
-import src from "*.avif";
 
 let state = {
     profilePage:{
@@ -22,14 +21,14 @@ let state = {
             { id: 5, name: 'Lena' },
             { id: 6, name: 'Dar' }
         ],
-        avaData: [
-            { id: 1, imgAva: 'https://i.pinimg.com/originals/04/a8/73/04a87347b071ec062a586e02c23f6221.png' },
-            { id: 2, imgAva: 'https://i.pinimg.com/originals/04/a8/73/04a87347b071ec062a586e02c23f6221.png' },
-            { id: 3, imgAva: 'https://i.pinimg.com/originals/04/a8/73/04a87347b071ec062a586e02c23f6221.png' },
-            { id: 4, imgAva: 'https://i.pinimg.com/originals/04/a8/73/04a87347b071ec062a586e02c23f6221.png' },
-            { id: 5, imgAva: 'https://i.pinimg.com/originals/04/a8/73/04a87347b071ec062a586e02c23f6221.png' },
-            { id: 6, imgAva: 'https://i.pinimg.com/originals/04/a8/73/04a87347b071ec062a586e02c23f6221.png' }
-        ],
+        // avaData: [
+        //     { id: 1, imgAva: 'https://i.pinimg.com/originals/04/a8/73/04a87347b071ec062a586e02c23f6221.png' },
+        //     { id: 2, imgAva: 'https://i.pinimg.com/originals/04/a8/73/04a87347b071ec062a586e02c23f6221.png' },
+        //     { id: 3, imgAva: 'https://i.pinimg.com/originals/04/a8/73/04a87347b071ec062a586e02c23f6221.png' },
+        //     { id: 4, imgAva: 'https://i.pinimg.com/originals/04/a8/73/04a87347b071ec062a586e02c23f6221.png' },
+        //     { id: 5, imgAva: 'https://i.pinimg.com/originals/04/a8/73/04a87347b071ec062a586e02c23f6221.png' },
+        //     { id: 6, imgAva: 'https://i.pinimg.com/originals/04/a8/73/04a87347b071ec062a586e02c23f6221.png' }
+        // ],
         messageData: [
             { id: 1, textMessage: 'Hello' },
             { id: 2, textMessage: 'hi' },

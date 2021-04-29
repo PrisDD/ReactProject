@@ -2,3 +2,8 @@
     color:rgb(8, 8, 8);
 
 }
+
+.message img{
+    width: 40px;
+    padding: 10px;
+}
